@@ -117,8 +117,7 @@ height: 51px; */
 
 .container {
     max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .contacts-list {
@@ -588,7 +587,7 @@ margin-left: 77px;
     letter-spacing: 0%;
     text-align: left;
     text-transform: uppercase;
-    width: 140.47px;
+    width: 100.47px;
     height: 253.54px;
     
     margin-top: 5px;
@@ -603,9 +602,9 @@ margin-left: 77px;
         line-height: 10px;
         letter-spacing: 0%;
         text-align: left;
-        width: 230.81px;
+        width: 200.81px;
         height: 78.96px;
-        margin-top: 28px;
+        margin-top: 46px;
         margin-left: 10px;
     }
     
@@ -616,7 +615,7 @@ margin-left: 77px;
         border-radius: 30px;
         box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         background: rgba(255, 255, 255, 0.4);
-        margin-top: 60px;
+        margin-top: 90px;
         margin-left: 10px;
     }
     .percentages_in_border_img {
@@ -628,7 +627,7 @@ margin-left: 77px;
         line-height: 50px;
         letter-spacing: 0%;
         text-align: center;
-        margin-top: 45px;
+        margin-top: 75px;
         margin-left: 20px;
     }
     .tetx_in_border_img {
@@ -641,7 +640,7 @@ margin-left: 77px;
         text-align: left;
         width: 200px;
         height: 42.01px;
-        margin-top: 77px;
+        margin-top: 108px;
         margin-left: 20px;
     }
     .sign_for_consultation_border {
@@ -650,7 +649,7 @@ margin-left: 77px;
         background: rgb(255, 255, 255);
         width: 240px;
         height: 30px;
-        margin-top: 115px;
+        margin-top: 140px;
         margin-left: 10px;
     }
     
@@ -664,7 +663,7 @@ margin-left: 77px;
         letter-spacing: 0%;
         text-align: left;
         text-transform: uppercase;
-        margin-top: 105px;
+        margin-top: 130px;
         margin-left: 22px;
     }
 
