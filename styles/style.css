@@ -112,10 +112,7 @@ text-align: left;
 
 .container {
     max-width: 1280px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .contacts-list {
@@ -136,9 +133,6 @@ font-style: normal;
 }
 
 @media(max-width: 1200px) {
-    .header_container{
-width: 1000px;
-    }
 .contacts-list {
     margin-left: 120px;
 }
@@ -159,14 +153,8 @@ width: 1000px;
     } 
     .container {
         max-width: 768px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
+
     }
-    .header_container{
-        width: 768px;
-            }
 } 
 
 @media(max-width: 768px) {
@@ -189,22 +177,15 @@ margin-left: 10px;
     }
     .container {
         max-width: 480px;
-
-        margin-left: auto;
-        margin-right: auto;
     }
-/* .header_container {
+.header_container {
     display: block;
-} */
-.header_container{
-    width: 480px;
-        }
+}
 }
 @media(max-width: 480px) {
 
     .container {
+        /* max-width: 280px; */
 
-        margin-left: auto;
-        margin-right: auto;
     }
 }
