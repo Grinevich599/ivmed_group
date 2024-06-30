@@ -175,6 +175,12 @@ height: 51px; */
     .contacts-link  {
         font-size: 19px; 
     }
+    .header_container {
+        display: block;
+    }
+    .header_text {
+        width: 370px;
+    }
 }
 
 @media(max-width: 480px) {
