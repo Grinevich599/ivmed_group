@@ -154,6 +154,13 @@ font-style: normal;
         margin-bottom: 12px;
         margin-top: 12px;
     } 
+    .container {
+        max-width: 768px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 } 
 
 @media(max-width: 768px) {
@@ -174,6 +181,16 @@ margin-left: 10px;
     .header_logo {
         margin-left: 10px;
     }
+    .container {
+        max-width: 480px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header_container {
+        /* display: flex; */
+        }
 } 
 
 @media(max-width: 480px) {
