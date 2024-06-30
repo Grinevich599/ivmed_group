@@ -255,11 +255,7 @@ margin-left: 92px;
     margin-left: 80px;
 }
 
-@media(max-width: 1200px) {
-    .contacts-list {
-        margin-left: 100px;
-    }
-
+@media(max-width: 1350px){
     .img_main_text {
         color: rgb(255, 255, 255);
     font-family: Nunito Sans;
@@ -348,6 +344,15 @@ margin-left: 92px;
         margin-top: 440px;
         margin-left: 92px;
     }
+
+}
+
+@media(max-width: 1200px) {
+    .contacts-list {
+        margin-left: 100px;
+    }
+
+
 }
 
 @media(max-width: 1000px) {
@@ -475,6 +480,97 @@ margin-left: 77px;
         width: 370px;
     }
 
+
+
+    .img_main_text {
+        color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    width: 150.47px;
+    height: 253.54px;
+    
+    margin-top: 14px;
+    margin-left: 20px;
+    }
+    
+    .text_under_img {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 240.81px;
+        height: 78.96px;
+        margin-top: 78px;
+        margin-left: 20px;
+    }
+    
+    .border {
+        position: absolute;
+        width: 150px;
+        height: 50px;
+        border-radius: 30px;
+        box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        background: rgba(255, 255, 255, 0.4);
+        margin-top: 130px;
+        margin-left: 20px;
+    }
+    .percentages_in_border_img {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 50px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+    .tetx_in_border_img {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 5px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 200px;
+        height: 42.01px;
+        margin-top: 155px;
+        margin-left: 30px;
+    }
+    .sign_for_consultation_border {
+        position: absolute;
+        border-radius: 68px;
+        background: rgb(255, 255, 255);
+        width: 240px;
+        height: 30px;
+        margin-top: 190px;
+        margin-left: 20px;
+    }
+    
+    .sign_for_consultation {
+        position: absolute;
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 50px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        margin-top: 180px;
+        margin-left: 23px;
+    }
+
 }
 
 @media(max-width: 480px) {
@@ -486,90 +582,90 @@ margin-left: 77px;
     .img_main_text {
         color: rgb(255, 255, 255);
     font-family: Nunito Sans;
-    font-size: 22px;
+    font-size: 8px;
     font-weight: 900;
-    line-height: 20px;
+    line-height: 10px;
     letter-spacing: 0%;
     text-align: left;
     text-transform: uppercase;
-    width: 170.47px;
+    width: 140.47px;
     height: 253.54px;
     
-    margin-top: 14px;
+    margin-top: 5px;
     margin-left: 10px;
     }
     
     .text_under_img {
         color: rgb(255, 255, 255);
         font-family: Nunito Sans;
-        font-size: 16px;
+        font-size: 10px;
         font-weight: 400;
-        line-height: 16px;
+        line-height: 10px;
         letter-spacing: 0%;
         text-align: left;
-        width: 300.81px;
+        width: 230.81px;
         height: 78.96px;
-        margin-top: 105px;
-        margin-left: 79px;
+        margin-top: 28px;
+        margin-left: 10px;
     }
     
     .border {
         position: absolute;
-        width: 250px;
-        height: 90px;
+        width: 150px;
+        height: 40px;
         border-radius: 30px;
         box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         background: rgba(255, 255, 255, 0.4);
-        margin-top: 180px;
-        margin-left: 78px;
+        margin-top: 60px;
+        margin-left: 10px;
     }
     .percentages_in_border_img {
         position: absolute;
         color: rgb(255, 255, 255);
         font-family: Nunito Sans;
-        font-size: 23px;
+        font-size: 13px;
         font-weight: 900;
         line-height: 50px;
         letter-spacing: 0%;
         text-align: center;
-        margin-top: 180px;
-        margin-left: 86px;
+        margin-top: 45px;
+        margin-left: 20px;
     }
     .tetx_in_border_img {
         color: rgb(255, 255, 255);
         font-family: Nunito Sans;
-        font-size: 13px;
+        font-size: 5px;
         font-weight: 400;
-        line-height: 22px;
+        line-height: 10px;
         letter-spacing: 0%;
         text-align: left;
-        width: 260px;
+        width: 200px;
         height: 42.01px;
-        margin-top: 220px;
-        margin-left: 92px;
+        margin-top: 77px;
+        margin-left: 20px;
     }
     .sign_for_consultation_border {
         position: absolute;
         border-radius: 68px;
         background: rgb(255, 255, 255);
-        width: 410px;
-        height: 65px;
-        margin-top: 300px;
-        margin-left: 80px;
+        width: 240px;
+        height: 30px;
+        margin-top: 115px;
+        margin-left: 10px;
     }
     
     .sign_for_consultation {
         position: absolute;
         color: rgb(2, 143, 255);
         font-family: Nunito Sans;
-        font-size: 17.55px;
+        font-size: 9px;
         font-weight: 900;
         line-height: 50px;
         letter-spacing: 0%;
         text-align: left;
         text-transform: uppercase;
-        margin-top: 309px;
-        margin-left: 92px;
+        margin-top: 105px;
+        margin-left: 22px;
     }
 
 }
