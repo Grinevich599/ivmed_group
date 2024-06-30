@@ -188,10 +188,17 @@ margin-left: 10px;
         margin-left: auto;
         margin-right: auto;
     }
-    .header_container {
-        /* display: flex; */
-        }
-} 
-
+.header_container {
+    display: block;
+}
+}
 @media(max-width: 480px) {
+
+    .container {
+        /* max-width: 280px; */
+        /* padding-left: 15px; */
+        /* padding-right: 15px; */
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
