@@ -1866,7 +1866,7 @@ margin-left: 77px;
 
     .advantages_list_photo {
         display: flex;
-        width: 400px;
+        width: 360px;
         justify-content: center; /* Центрирование по горизонтали */
         align-items: center;     /* Центрирование по вертикали (если элементы имеют разную высоту) */
         list-style-type: none;   /* Убирает стандартные маркеры списка */
@@ -1875,7 +1875,7 @@ margin-left: 77px;
     }
     .advantages_list {
         margin-bottom: 0px;
-        width: 400px;
+        width: 360px;
         height: 250px;
 
     }
@@ -1922,7 +1922,7 @@ margin-left: 200px;
         height: 130px;
     }
     .advantages_list_two {
-        width: 400px;
+        width: 360px;
         height: 360px;
     }
 }
@@ -1975,7 +1975,7 @@ margin-left: 130px;
         font-weight: 900;
         line-height: 28px;
         letter-spacing: 0%;
-        width: 420px;
+        width: 320px;
         height: 63px;
     }
     .advantages_team {
@@ -2054,7 +2054,7 @@ margin-left: 80px;
         position: absolute;
         /* display: flex; */
 
-width: 400px;
+width: 360px;
 position: center;
 margin-left: 50px;
 
@@ -2069,6 +2069,9 @@ margin-left: 50px;
         display: flex;
         justify-content: center;
         margin-top: 35px;
+
+
+        width: 360px;
         /* justify-content: center; */
         margin-left: 0px;
         margin-top: 1200px;
@@ -2091,7 +2094,8 @@ margin-left: 50px;
         margin-top: 10px;
     }
     .advantages_ul_list{
-        margin-left: 100px;
+        /* margin-left: 100px; */
+        width: 360px;
     }
     .advantages_list_photo {
         display: flex;
