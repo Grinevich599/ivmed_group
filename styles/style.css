@@ -65,10 +65,16 @@ input {
 
 .header_container {
     display: flex;
+    max-width: 1280px;
+    margin: 0px auto;
+
 }
 
 
+
+
 .header_logo {
+
     /* margin-left: 62px; */
     margin-bottom: 12px;
     margin-top: 12px;
@@ -309,6 +315,10 @@ margin-top: 31px;
     display: flex;
     gap: 223px;
     justify-content: center;
+
+    max-width: 1280px;
+    margin: 0px auto;
+    padding: 20px;
 }
 
 .percentage_one {
@@ -407,9 +417,14 @@ margin-top: 42px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 20px;
+
 }
 .advice_list li {
-    width: 30%;
+    width: 40%;
     box-sizing: border-box;
     margin-bottom: 20px;
     list-style: none;
@@ -446,7 +461,7 @@ display: flex;
 .advice_text {
     color: rgb(255, 255, 255);
 font-family: Nunito Sans;
-font-size: 22px;
+font-size: 19px;
 font-weight: 400;
 line-height: 22px;
 letter-spacing: 0%;
@@ -464,10 +479,15 @@ height: 51px;
 
 .work_ul_list {
     display: flex;
-    gap: 203px;
-    width: 100%;
+    gap: 123px;
+
     justify-content: center;
     margin-top: 21px;
+
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+
 }
 
 .ul_main_container {
@@ -530,6 +550,7 @@ height: 82px;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .consultation_border {
@@ -694,6 +715,7 @@ text-align: left;
 .team_list {
     display: flex;
     gap: 200px;
+
 }
 
 .register_consultation_border{
@@ -958,11 +980,11 @@ margin-top: 40px;
     padding: 64px 0;
 }
 
-.container {
+/* .container {
     max-width: 375px;
     padding: 0 16px;
     margin: 0 auto;
-}
+} */
 
 .title_subscription {
     color: rgb(2, 143, 255);
