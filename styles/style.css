@@ -556,16 +556,152 @@ text-align: center;
     margin-bottom: 46px;
 }
 
+.text_under_work {
+    color: rgba(0, 0, 0, 0.4);
+font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-align: center;
+
+}
+.team_container {
+    gap: 200px;
+    justify-content: center;
+    position: absolute;
+    margin-top: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.team_foto_one {
+    /* width: 100%; */
+    
+}
+
+.bg {
+margin-top: 500px;
+    width: 100%; /* Растягиваем на весь экран */
+    height: 220px;
+    background: rgb(2, 143, 255);
+    position: absolute;
+    transform: translateY(-50%); /* Коррекция для центрирования по вертикали */
+}
 
 
 
+.team_text_name {
+
+color: rgb(255, 255, 255);
+font-family: Nunito Sans;
+font-size: 22px;
+font-weight: 900;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.team_text_white {
+    color: rgb(255, 255, 255);
+font-family: Nunito Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+width: 430px;
+height: 130px;
+margin-top: 10px;
+}
+
+.team_text_blue {
+    color: rgb(2, 143, 255);
+font-family: Nunito Sans;
+font-size: 21px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+width: 410px;
+height: 183px;
+/* text-align: center; */
+/* text-transform: uppercase; */
+}
+
+.team_text_name_two{
+
+    color: rgb(255, 255, 255);
+font-family: Nunito Sans;
+font-size: 22px;
+font-weight: 900;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.team_text_white_two {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 430px;
+    height: 130px;
+    margin-top: 10px;
+}
+.team_text_blue_two {
+    color: rgb(2, 143, 255);
+    font-family: Nunito Sans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    width: 410px;
+    height: 183px;
+}
+
+.team_list {
+    display: flex;
+    gap: 200px;
+}
+
+.register_consultation_border{
+    /* Rectangle 20 */
+/* position: absolute; */
+width: 660px;
+height: 71px;
+position: absolute;
+border-radius: 68px;
+
+margin-top: 1000px;
 
 
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.register_consultation {
+    color: rgb(2, 143, 255);
+font-family: Nunito Sans;
+font-size: 28px;
+font-weight: 900;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+/* text-transform: uppercase; */
+margin-top: 1000px;
+}
 
-
-
-
-
+.bg_copy {
+    margin-top: 500px;
+    width: 100%; /* Растягиваем на весь экран */
+    height: 220px;
+    background: rgb(2, 143, 255);
+    position: absolute;
+    transform: translateY(-50%);
+    display: none;
+}
 
 
 
@@ -727,6 +863,10 @@ text-align: center;
     .work_ul_list {
         gap: 150px;
     }
+    .team_list {
+        display: flex;
+        gap: 100px;
+    }
 
 }
 
@@ -734,9 +874,9 @@ text-align: center;
 .contacts-list {
     margin-left: 50px;
 }
-.df {
+/* .df {
     display: block;
-}
+} */
 
 .img_main_text {
     color: rgb(255, 255, 255);
@@ -888,6 +1028,34 @@ margin-left: 77px;
 }
 .work_ul_list {
     gap: 80px;
+}
+.team_list {
+    display: flex;
+    gap: 50px;
+}
+
+.team_text_white {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 350px;
+    height: 130px;
+    margin-top: 10px;
+}
+
+.team_text_blue {
+    color: rgb(2, 143, 255);
+    font-family: Nunito Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    width: 360px;
+    height: 183px;
 }
 }
 
@@ -1196,6 +1364,7 @@ margin-left: 77px;
     .consultation_list_li {
         margin-bottom: 180px;
     }
+
 }
 
 
@@ -1209,7 +1378,12 @@ margin-left: 77px;
         text-align: center;
         text-transform: uppercase;
     }
-
+    .team_foto_one {
+        width: 200px;
+    }
+    .team_foto_two {
+        width: 200px;
+    }
 }
 
 @media(max-width: 305px) {
@@ -1389,6 +1563,38 @@ margin-left: 77px;
         /* width: 220.87px; */
         height: 80px;
     }
+    .team_list {
+        display: block;
+        gap: 50px;
+    }
+    .bg_copy {
+        margin-top: 1460px;
+        width: 100%; /* Растягиваем на весь экран */
+        height: 220px;
+        background: rgb(2, 143, 255);
+        position: absolute;
+        transform: translateY(-50%);
+        display: block;
+    }
+    .team_foto_two {
+        margin-top: 200px;
+    }
+    .consultation_main_text {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 50px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        margin-top: 24px;
+        margin-left: 5px;
+        margin-bottom: 40px;
+    /* width: 600px; */
+
+    /* height: 50px; */
+    }
 }
 
 @media(max-width: 671px) {
@@ -1452,6 +1658,169 @@ margin-left: 77px;
     }
 }
 
+
+@media(max-width: 443px){
+    .work_li_list_text {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: center;
+        /* width: 220.87px; */
+        height: 80px;
+    }
+    .team_list {
+        display: block;
+        gap: 50px;
+    }
+    .bg_copy {
+        margin-top: 1600px;
+        width: 100%; /* Растягиваем на весь экран */
+        height: 220px;
+        background: rgb(2, 143, 255);
+        position: absolute;
+        transform: translateY(-50%);
+        display: block;
+    }
+    .team_foto_one{
+width: 290px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+    }
+    .team_foto_two {
+        width: 290px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 300px;
+    }
+    .team_text_name {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+    .team_text_white {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 310px;
+        height: 130px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .team_text_blue {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        width: 260px;
+        height: 183px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .team_text_name_two {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+    .team_text_white_two {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 310px;
+        height: 130px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .team_text_blue_two {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        width: 260px;
+        height: 183px;
+        margin-left: 20px;
+
+        margin-top: 20px;
+    }
+    .consultation_text {
+        color: rgb(2, 143, 255);
+        font-family: "Nunito Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-left: 11px;
+        width: auto;
+        height: 82px;
+    }
+}
+
+@media(max-width: 514px) {
+    .consultation_text {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        /* text-align: left; */
+        margin-left: 11px;
+        width: auto;
+        height: 82px;
+    }
+}
+
+
+@media(max-width: 356px) {
+    .consultation_text {
+        color: rgb(2, 143, 255);
+        font-family: "Nunito Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        margin-left: 11px;
+        width: 250px;
+        height: 82px;
+    }
+
+}
+
+@media(max-width: 394px) {
+    .consultation_list_li {
+        margin-bottom: 280px;
+    }
+}
+
+
+
 @media(max-width: 325px) {
     .advice_text {
         color: rgb(255, 255, 255);
@@ -1466,6 +1835,106 @@ margin-left: 77px;
         margin-left: 32px;
         margin-top: 10px;
     }
-}
+    .team_foto_one{
+        width: 270px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+            }
+            .team_foto_two {
+                width: 270px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+            }
 
+            .team_foto_one{
+                width: 290px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                    }
+                    .team_foto_two {
+                        width: 290px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 300px;
+                    }
+                    .team_text_name {
+                        color: rgb(255, 255, 255);
+                        font-family: Nunito Sans;
+                        font-size: 22px;
+                        font-weight: 900;
+                        line-height: 28px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        margin-top: 70px;
+                        margin-left: 20px;
+                    }
+                    .team_text_white {
+                        color: rgb(255, 255, 255);
+                        font-family: Nunito Sans;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        width: 250px;
+                        height: 130px;
+                        margin-top: 10px;
+                        margin-left: 20px;
+                    }
+                    .team_text_blue {
+                        color: rgb(2, 143, 255);
+                        font-family: Nunito Sans;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: 0%;
+                        width: 260px;
+                        height: 183px;
+                        margin-top: 20px;
+                        margin-left: 20px;
+                    }
+                
+                    .team_text_name_two {
+                        color: rgb(255, 255, 255);
+                        font-family: Nunito Sans;
+                        font-size: 22px;
+                        font-weight: 900;
+                        line-height: 28px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        margin-top: 90px;
+                        margin-left: 20px;
+                    }
+                    .team_text_white_two {
+                        color: rgb(255, 255, 255);
+                        font-family: Nunito Sans;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                        width: 250px;
+                        height: 130px;
+                        margin-top: 10px;
+                        margin-left: 20px;
+                    }
+                    .team_text_blue_two {
+                        color: rgb(2, 143, 255);
+                        font-family: Nunito Sans;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: 0%;
+                        width: 240px;
+                        height: 183px;
+                        margin-left: 20px;
+                
+                        margin-top: 20px;
+                    }
+}
 
