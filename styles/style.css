@@ -149,9 +149,32 @@ width: 100%;
 
 }
 
-.pa {
+
+
+.form_container {
     position: absolute;
+    margin-left: 600px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+width: 689px;
+height: 565px;
+margin-top: 100px;
+
 }
+.form_container {
+    position: absolute;
+    margin-left: 600px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    width: 689px;
+    height: 565px;
+    margin-top: 100px;
+}
+
+.title_subscription {
+
+}
+
 
 
 
@@ -817,6 +840,273 @@ height: 148px;
 
 }
 
+.studies_main_container{
+    max-width: 1280px;
+    margin: 0 auto; 
+    padding: 20px; 
+
+
+}
+
+
+.studies_title {
+    color: rgb(2, 143, 255);
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    width: 1180px;
+height: 63px;
+
+margin-top: 63px;
+
+}
+
+
+.studies_under_title_text {
+    color: rgb(2, 143, 255);
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 920px;
+height: 78.96px;
+
+
+}
+
+
+
+.studies_ul_list {
+
+}
+
+
+
+
+.studies_listt{
+    width: 1107px;
+    height: 0;
+    left: 80px;
+    top: 5260.5px;
+    /* border: 1px solid rgba(0, 0, 0, 0.25); */
+    
+    color: rgba(0, 0, 0, 0.4);
+    font-family: Nunito Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 70px;
+
+}
+
+
+.studies_list {
+        /* Line 7 */
+/* position: absolute; */
+width: 1107px;
+height: 0;
+left: 80px;
+top: 5260.5px;
+border: 1px solid rgba(0, 0, 0, 0.25);
+
+color: rgba(0, 0, 0, 0.4);
+font-family: Nunito Sans;
+font-size: 23px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 70px;
+margin-top: 40px;
+}
+
+.max {
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 0px; /* Пример отступа вокруг контейнера */
+
+}
+
+
+
+
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.subscription_section {
+    padding: 64px 0;
+}
+
+.container {
+    max-width: 375px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.title_subscription {
+    color: rgb(2, 143, 255);
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 55px;
+
+    display: flex;
+    justify-content: center;
+    /* width: 418px; */
+height: 38px;
+}
+.subscription_text {
+    color: rgb(2, 143, 255);
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 540.08px;
+height: 78.96px;
+
+margin-left: 72px;
+
+}
+
+
+.name_input {
+    position: relative;
+}
+
+.input {
+    color: rgba(0, 0, 0, 0.4);
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 55px;
+    margin-left: 107px;
+}
+
+.error_icon {
+    position: absolute;
+    right: 20px;
+    transform: translateY(50%);
+    fill: transparent;
+}
+
+.input:invalid:not(:placeholder-shown) {
+    border: 1px solid var(--error);
+    outline: transparent;
+    color: var(--error);
+}
+
+.input:valid:not(:placeholder-shown) {
+    border: 1px solid var(--blue-font);
+    outline: transparent;
+}
+
+.input:invalid:not(:placeholder-shown)+.error_icon {
+    fill: var(--error);
+}
+
+.input:focus {
+    border-color: 1px solid var(--blue-font);
+    outline: transparent;
+}
+
+.input::placeholder {
+    color: var(--light-grey);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.wrap_checkbox {
+    margin-bottom: 30px;
+}
+
+.custom_checkbox {
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--dark-grey);
+    display: inline-flex;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.label_text {
+    font-family: var(--main-font);
+    color: var(--grey);
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.custom_checkbox {
+    fill: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox:checked + label > .custom_checkbox {
+    background-color: var(--blue-font);
+    border: 1px solid var(--blue-font);
+    fill: #fff;
+}
+
+.btn_send {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 68px;
+    width: 476px;
+    height: 71px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+background: rgb(2, 143, 255);
+margin-left: 102px;
+}
+
+
+
+
+
+.pa {
+    position: absolute;
+}
 
 
 
@@ -837,8 +1127,20 @@ height: 148px;
 
 
 
-
-
+@media(max-width: 1500px) {
+    .last_photo {
+        max-width: 1000px;
+    }
+    .form_container {
+        position: absolute;
+        margin-left: 500px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        background: rgb(255, 255, 255);
+        width: 689px;
+        height: 565px;
+        margin-top: 100px;
+    }
+}
 
 
 
@@ -1031,11 +1333,99 @@ height: 148px;
         width: 561px;
         height: 128px;
     }
+
+    .studies_title {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        width: 1000px;
+        height: 63px;
+        margin-top: 63px;
+    }
+    .studies_list {
+        /* position: absolute; */
+        width: 1000px;
+        height: 0;
+        left: 80px;
+        top: 5260.5px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        color: rgba(0, 0, 0, 0.4);
+        font-family: Nunito Sans;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+    .studies_under_title_text {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 1000px;
+        height: 78.96px;
+    }
+    .studies_main_container{
+        max-width: 1000px;
+        /* margin: 0 auto;  */
+        padding: 0px; /* Пример отступа вокруг контейнера */
+    
+    
+    }
+    .form_container {
+        position: absolute;
+        margin-left: 300px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        background: rgb(255, 255, 255);
+        width: 689px;
+        height: 565px;
+        margin-top: 100px;
+    }
+
 }
 
 @media(max-width: 1000px) {
-.contacts-list {
+/* .contacts-list {
     margin-left: 50px;
+} */
+.header_text {
+    color: rgba(0, 0, 0, 0.4);
+    font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    /* margin-left: 70px; */
+    margin-top: 21px;
+}
+.header_li {
+    color: rgb(2, 143, 255);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.contacts-link {
+    color: rgb(2, 143, 255);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: right;
+    font-style: normal;
 }
 /* .df {
     display: block;
@@ -1290,6 +1680,121 @@ margin-left: 77px;
     width: 520px;
     height: 128px;
 }
+
+
+.studies_title {
+    color: rgb(2, 143, 255);
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    width: 768px;
+    height: 63px;
+    margin-top: 63px;
+}
+
+.studies_under_title_text {
+    color: rgb(2, 143, 255);
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 768px;
+    height: 78.96px;
+}
+.studies_list {
+    /* position: absolute; */
+    width: 768px;
+    height: 0;
+    left: 80px;
+    top: 5260.5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.4);
+    font-family: Nunito Sans;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+.last_photo {
+    width: 768px;
+            
+        }
+        .form_container {
+            position: absolute;
+            margin-left: 270px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            background: rgb(255, 255, 255);
+            width: 489px;
+            height: 500px;
+            margin-top: 100px;
+        }
+        .title_subscription {
+            color: rgb(2, 143, 255);
+            font-family: Nunito Sans;
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 28px;
+            letter-spacing: 0%;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 55px;
+            display: flex;
+            justify-content: center;
+
+            height: 38px;
+        }
+        .subscription_text {
+            color: rgb(2, 143, 255);
+            font-family: Nunito Sans;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0%;
+            text-align: center;
+            width: 440.08px;
+            height: 78.96px;
+            margin-left: 42px;
+        }
+        .input {
+            color: rgba(0, 0, 0, 0.4);
+            font-family: Nunito Sans;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-bottom: 55px;
+            margin-left: 50px;
+        }
+
+        .last_photo {
+            max-width: 768px;
+        }
+        .btn_send {
+            color: rgb(255, 255, 255);
+            font-family: Nunito Sans;
+            font-size: 28px;
+            font-weight: 900;
+            line-height: 50px;
+            letter-spacing: 0%;
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: 68px;
+            width: 376px;
+            height: 71px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            background: rgb(2, 143, 255);
+            margin-left: 50px;
+        }
 }
 
 @media(max-width: 768px) {
@@ -1305,17 +1810,17 @@ margin-left: 77px;
         margin-left: 10px;
     }
     .header_text {
-        font-size: 17px;
+        font-size: 13px;
     }
     .header_li {
-        font-size: 19px; 
+        font-size: 14px; 
     }
     .contacts-link  {
-        font-size: 19px; 
+        font-size: 14px; 
     }
 
     .header_text {
-        width: 370px;
+        width: 300px;
     }
 
 
@@ -1425,9 +1930,118 @@ margin-left: 77px;
     .consultation_list_li {
         margin-bottom: 90px;
     }
+    .studies_title {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        width: 560px;
+        height: 63px;
+        margin-top: 63px;
+    }
+    
+    .studies_under_title_text {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 560px;
+        height: 78.96px;
+    }
+    .studies_list {
+        /* position: absolute; */
+        width: 560px;
+        height: 0;
+        left: 80px;
+        top: 5260.5px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        color: rgba(0, 0, 0, 0.4);
+        font-family: Nunito Sans;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+    .form_container {
+        position: absolute;
+
+        margin-left: 150px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        background: rgb(255, 255, 255);
+        width: 389px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    .btn_send {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 50px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 68px;
+        width: 250px;
+        height: 71px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        background: rgb(2, 143, 255);
+        margin-left: 70px;
+    }
+    .last_photo {
+        max-width: 560px;
+    }
+    .subscription_text {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: center;
+        width: 340.08px;
+        height: 78.96px;
+        margin-left: 42px;
+    }
+    .input {
+        color: rgba(0, 0, 0, 0.4);
+        font-family: Nunito Sans;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 25px;
+        margin-left: 50px;
+    }
 }
 
 @media(max-width: 560px) {
+    .header_logo {
+        margin-left: 0px;
+        width: 70px;
+        height: 100px;
+    }
+    .header_text {
+        font-size: 10px;
+        width: 250px;
+    }
+    .header_li {
+        font-size: 12px;
+    }
+    .contacts-link {
+        font-size: 12px;
+    }
     .achievement-text {
         color: rgb(255, 255, 255);
         font-family: 'Nunito Sans', sans-serif;
@@ -1441,14 +2055,71 @@ margin-left: 77px;
         margin-bottom: 140px;
     }
 
+    .studies_title {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        width: 480px;
+        height: 63px;
+        margin-top: 63px;
+    }
+    
+    .studies_under_title_text {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 480px;
+        height: 78.96px;
+    }
+    .studies_list {
+        /* position: absolute; */
+        width: 480px;
+        height: 0;
+        left: 80px;
+        top: 5260.5px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        color: rgba(0, 0, 0, 0.4);
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+    .form_container {
+        position: absolute;
+        margin-left: 80px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+        background: rgb(255, 255, 255);
+        width: 389px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    .last_photo {
+        max-width: 480px;
+    }
 }
 
 @media(max-width: 480px) {
 
-    .header_container {
-        display: block;
-    }
-
+.df {
+    display: block;
+}
+.contacts-list {
+margin-top: 15px;
+margin-left: 10px;
+}
     .img_main_text {
         color: rgb(255, 255, 255);
     font-family: Nunito Sans;
@@ -1597,7 +2268,60 @@ margin-left: 77px;
     .consultation_list_li {
         margin-bottom: 180px;
     }
-
+    .studies_title {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        width: 420px;
+        height: 63px;
+        margin-top: 63px;
+    }
+    
+    .studies_under_title_text {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 420px;
+        height: 78.96px;
+    }
+    .studies_list {
+        /* position: absolute; */
+        width: 420px;
+        height: 0;
+        left: 80px;
+        top: 5260.5px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        color: rgba(0, 0, 0, 0.4);
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+    .form_container {
+        position: absolute;
+        margin-left: 40px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+        background: rgb(255, 255, 255);
+        width: 389px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    .last_photo {
+        max-width: 420px;
+    }
 }
 
 
@@ -1616,6 +2340,113 @@ margin-left: 77px;
     }
     .team_foto_two {
         width: 200px;
+    }
+    
+    .studies_title {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 28px;
+        letter-spacing: 0%;
+        text-align: left;
+        text-transform: uppercase;
+        width: 320px;
+        height: 63px;
+        margin-top: 63px;
+    }
+    
+    .studies_under_title_text {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+        width: 320px;
+        height: 78.96px;
+    }
+    .studies_list {
+        /* position: absolute; */
+        width: 320px;
+        height: 0;
+        left: 80px;
+        top: 5260.5px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        color: rgba(0, 0, 0, 0.4);
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+    .form_container {
+        position: absolute;
+        margin-left: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px;
+        background: rgb(255, 255, 255);
+        width: 300px;
+        height: 280px;
+        margin-top: 50px;
+    }
+    .last_photo {
+        max-width: 305px;
+    }
+    .title_subscription {
+        color: rgb(2, 143, 255);
+        font-family: "Nunito Sans";
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        height: 28px;
+    }
+    .subscription_text {
+        color: rgb(2, 143, 255);
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: center;
+        width: 250.08px;
+        height: 50px;
+        margin-left: 22px;
+    }
+    .input {
+        color: rgba(0, 0, 0, 0.4);
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 12px;
+        margin-left: 20px;
+    }
+    .btn_send {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 50px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 68px;
+        width: 200px;
+        height: 45px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        background: rgb(2, 143, 255);
+        margin-left: 20px;
     }
 }
 
@@ -2099,7 +2930,7 @@ margin-left: 50px;
     }
     .advantages_list_photo {
         display: flex;
-        width: 300px;
+        width: 2600px;
         justify-content: center;
         align-items: center;
         list-style-type: none;
