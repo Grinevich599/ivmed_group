@@ -2595,7 +2595,7 @@ margin-top: 15px;
         width: 200px;
     }
     .header_text_container {
-        margin-left: 0px;
+        margin-left: 10px;
     }
     .header_logo {
         margin-left: 0px;
@@ -2727,6 +2727,9 @@ margin-top: 15px;
 
 
     }
+    .input::placeholder {
+        font-size: 13px; /* Change this to your desired size */
+      }
     .btn_send {
         color: rgb(255, 255, 255);
         font-family: Nunito Sans;
